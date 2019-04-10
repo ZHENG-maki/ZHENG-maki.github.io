@@ -116,7 +116,7 @@ border: none;
 .p3d{
 	position: absolute;
 	top: 375px;
-    left: 315px;
+    left: 420px;
 	height: 259px;
 	width: 312px;
 	background: url(../img/p3d.png) center no-repeat;
@@ -124,7 +124,7 @@ border: none;
 .p5d{
 	position: absolute;
     top: 375px;
-    left: 675px;
+    left: 775px;
     height: 259px;
 	width: 312px;
 	background: url(../img/p5d.png) no-repeat;
@@ -132,7 +132,7 @@ border: none;
 .p3d_1{
 	position: absolute;
 	top: 885px;
-    left: 175px;
+    left: 220px;
     width: 332px;
     height: 108px;
     background: url(../img/p3d_1.png) no-repeat;
@@ -140,7 +140,7 @@ border: none;
 .p5d_1{
 	position: absolute;
 	top: 885px;
-    left: 895px;
+    left: 1000px;
     width: 332px;
     height: 108px;
     background: url(../img/p5d_1.png) no-repeat;
