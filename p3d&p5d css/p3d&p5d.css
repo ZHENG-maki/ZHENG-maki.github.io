@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+/*	<!--LOGO部分开始-->*/
+#bgd{background: #333333;}
+#head{
+	width: 980px;
+	margin: 0 auto;
+	height: 80px;
+}
+#head .left{float: left;}
+#head .right{float: right;}
+#head .left img{height: 80px;}
+#head .right{height: 80px;}
+#head .user{margin: auto 0;
+color: whitesmoke;
+margin: 29px 0 0 0;
+cursor: pointer;
+}
+#head .right .user .color{color:silver;}
+/*登陆相关部分开始*/
+#father {position: absolute;}
+#user_log img{height:50px;
+margin: 10px 0 0 85px;}
+#user_log{
+	z-index:100;
+	position: relative;
+	left: 94px;
+	top: 8px;
+	width: 223px;
+	background: white;
+}
+#user_log .name,.pass{
+	padding-left:18px;
+	margin-left: 31px;
+}
+#user_log .name{background: white url(../img/pic04.png) no-repeat;}
+#user_log .pass{background: white url(../img/pic05.png) no-repeat;}
+#user_log input{font-size: 19px;margin-bottom:15px;
+border: none;
+}
+#user_log .left_1{cursor: pointer;margin: 0 8px 0 69px;background: rgba(0,0,0,0);color: darkturquoise;}
+#user_log .right_2{cursor: pointer;background: rgba(0,0,0,0);color: aquamarine;}
+#user_log{display: none;}
+/*登陆相关部分结束*/
+/*<!--LOGO部分结束-->*/
+
+
+/*		<!--导航部分开始-->*/
+#nav{
+	width: 100%;
+	background:#C20C0C;
+	height: 42px;
+	position: absolute;
+}
+.nav_1{
+	width: 721px;
+	margin: 0 auto;
+}
+.nav_1 li{float: left;}
+.nav_1 li a{
+	width: 120px;
+	height: 42px;
+	display: inline-block;
+	text-align: center;
+	line-height: 42px;
+	color: white;
+}
+#nav a:hover{background: #9B0909;}
+/*		<!--导航部分结束-->*/
+
+/*<!--banner模块开始-->*/
+#banner{
+	position: fixed;
+	position: relative;
+	margin: 42px 0 0 0;
+	height: 1067px;
+	width: 100%;
+	/*background: #D6E9E1;*/
+	background: url(../img/封面.jpg) center;
+}
+.banner背景1{
+	height: 1067px;
+	width: 50%;
+	background:rgba(0,0,0,0.7);
+	z-index: 100;
+	float: left;
+	/*left: 0px; 
+	top: 0px;*/
+}
+.banner背景2{
+	height: 1067px;
+	width: 50%;
+	background:rgba(0,0,0,0.7);
+	z-index: 100;
+	float: left;
+	/*left: 0px; 
+	top: 0px;*/
+}
+/*#banner .zuo{
+	height: 1030px;
+	width: 52%;
+	background: url(../img/zuo.png) left;
+	float: left;
+	margin-right: -50px;
+}
+#banner .you{
+	height: 1030px;
+	width: 53%;
+	background: url(../img/you.png) right;
+	float: left;
+	margin-left: -50px;*/
+.p3d{
+	position: absolute;
+	top: 375px;
+    left: 315px;
+	height: 259px;
+	width: 312px;
+	background: url(../img/p3d.png) center no-repeat;
+}
+.p5d{
+	position: absolute;
+    top: 375px;
+    left: 675px;
+    height: 259px;
+	width: 312px;
+	background: url(../img/p5d.png) no-repeat;
+}
+.p3d_1{
+	position: absolute;
+	top: 885px;
+    left: 175px;
+    width: 332px;
+    height: 108px;
+    background: url(../img/p3d_1.png) no-repeat;
+}
+.p5d_1{
+	position: absolute;
+	top: 885px;
+    left: 895px;
+    width: 332px;
+    height: 108px;
+    background: url(../img/p5d_1.png) no-repeat;
+}
+/*<!--banner模块结束-->*/
