@@ -1,0 +1,357 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;	
+}
+
+       
+/*	<!--LOGO部分开始-->*/
+#bgd{background: #333333;}
+#head{
+	width: 980px;
+	margin: 0 auto;
+	height: 80px;
+}
+#head .left{float: left;}
+#head .right{float: right;}
+#head .left img{height: 80px;}
+#head .right{height: 80px;}
+#head .user{margin: auto 0;
+color: whitesmoke;
+margin: 29px 0 0 0;
+cursor: pointer;
+}
+#bgd #head .right a:hover{background: none;}
+ .father {color: white;}
+#head .right .user .color{color:silver;}
+/*登陆相关部分开始*/
+#father {position: absolute;}
+#user_log img{height:50px;
+margin: 10px 0 0 85px;}
+#user_log{
+	z-index:100;
+	position: relative;
+	left: 94px;
+	top: 8px;
+	width: 223px;
+	background: white;
+}
+#user_log .name,.pass{
+	padding-left:18px;
+	margin-left: 31px;
+}
+#user_log .name{background: white url(../img/pic04.png) no-repeat;}
+#user_log .pass{background: white url(../img/pic05.png) no-repeat;}
+#user_log input{font-size: 19px;margin-bottom:15px;
+border: none;
+}
+#user_log .left_1{cursor: pointer;margin: 0 8px 0 69px;background: rgba(0,0,0,0);color: darkturquoise;}
+#user_log .right_2{cursor: pointer;background: rgba(0,0,0,0);color: aquamarine;}
+#user_log{display: none;}
+/*登陆相关部分结束*/
+
+/*<!--LOGO部分结束-->*/
+
+
+/*		<!--导航部分开始-->*/
+#nav{
+	width: 100%;
+	background:#C20C0C;
+	height: 42px;
+	position: absolute;
+}
+.nav_1{
+	width: 721px;
+	margin: 0 auto;
+}
+.nav_1 li{float: left;}
+.nav_1 li a{
+	left: 406px;
+	width: 120px;
+	height: 42px;
+	display: inline-block;
+	text-align: center;
+	line-height: 42px;
+	color: white;
+}
+a:hover{background: #9B0909;}
+/*		<!--导航部分结束-->*/
+
+/*<!--banner模块开始-->*/
+#banner{
+	margin: 42px 0 0 0;
+	width: 100%;
+	height: 551px;
+	background: #3D0706;
+}
+.banner_1{
+	width: 980px;
+	margin: 0 auto;
+}
+.banner_1 img{width: 980px;height: 551px;}
+.banner_1{position: relative;}
+.banner_1 .one{position: absolute;background: #333333;}
+
+.button li{
+	position: absolute;
+	top: 500px;
+	height: 10px;
+	width: 10px;
+	background-color:white;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	cursor: pointer;
+	margin: 20px;
+}
+.button #a1{margin-left: 415px;}
+.button #a2{margin-left: 445px;}
+.button #a3{margin-left: 475px;}
+.button #a4{margin-left: 505px;}
+.button #a5{margin-left: 535px;}
+.button #a6{margin-left: 565px;}
+.button .current{background-color: darkred;}
+.banner_pic .current{display: block;}
+.banner_pic .pic{display: none;}
+
+/*<!--banner模块结束-->*/
+
+/*<!--返回顶部小插件开始-->*/
+.goto_top{
+	position: fixed;
+	right: 2%;
+	bottom: 2%;
+}
+.goto_top img{height: 50px;}
+.goto_top:hover{background: rgba(0,0,0,0);}
+/*<!--返回顶部小插件完成-->*/
+
+
+/*<!--内容部分开始-->*/
+
+/*<!--本站推荐部分开始-->*/
+#centerbg{background: #F5F5F5;} /*//推荐部分的背景颜色*/
+#commend{
+	width: 980px;
+	margin: 0 auto;
+	height: 1880px;
+	background: #FFFFFF;
+}
+#commend .CM1{height: 540px;}
+#commend .CM1_0{
+	position: relative;
+    }
+#commend .CM1_0 img{
+	position: absolute;
+	top: 20px;
+	left: 5px;
+    height: 36px;
+}
+#commend .CM1_0 p{
+	font-size: 21px;
+	font-weight:600;
+	color: #333333;
+	display: inline-block;
+	margin: 23px 0 13px 47px;
+}
+#commend .CM1_1{
+	width: 900px;
+	height: 130px;
+	background:url(../img/testN.jpg);
+	margin: 14px auto;
+}
+#commend #fx{
+	cursor: pointer;
+	background: rgba(0,0,0,0.5);
+    width: 900px;
+	height: 85px;
+	padding-top: 45px;
+	display: none;
+}
+#commend #fx p{
+	color: white;
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#commend .CM1_2{
+	width: 900px;
+	height: 130px;
+	background: url(../img/testX.jpg);
+	margin: 14px auto;
+}
+
+#commend .CM1_3{
+	width: 900px;
+	height: 130px;
+	background: url(../img/testY.jpg);
+	margin: 14px auto;
+}
+/*<!--本站推荐部分结束-->*/
+/*<!--每日推荐部分开始-->*/
+#commend .CM2{
+	height: 280px;
+}
+#commend .CM2_0{
+	position: relative;
+    }
+#commend .CM2_0 img{
+	position: absolute;
+	top: 20px;
+	left: 5px;
+    height: 36px;
+}
+#commend .CM2_0 p{
+	font-size: 21px;
+	font-weight:600;
+	color: #333333;
+	display: inline-block;
+	margin: 23px 0 13px 47px;
+	cursor: pointer;
+}
+#commend .CM2_1{
+	height: 200px;
+}
+#commend .CM2_1 .mr_song{
+	height: 170px;
+	width: 140px;
+	float: left;
+	margin: 14px 0 0 20px;
+	cursor: pointer;
+}
+#commend .CM2_1 .song_pic img{height: 130px;width: 140px;}
+#commend .CM2_1 .song_pic{
+	height: 130px;
+	width: 160px;
+}
+#commend .song_name{
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #333333;
+	border: 1px solid gainsboro;
+	border-bottom: none;
+}
+#commend .song_singer{
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: darkgray;
+	border: 1px solid gainsboro;
+	border-top: none;
+}
+#commend .CM2_0 a:hover{background: none;}
+#commend .CM2_0 a{
+	color: red;
+	font-weight: 700;
+	margin-left:768px ;
+}
+
+
+/*<!--每日推荐部分结束-->*/
+
+/*<!--内容部分结束-->*/
+
+/*<!--<歌曲排行部分开始>-->*/
+.CM3{
+	height: 466px;
+	width: 980px;
+}
+#commend .CM3_0{
+	position: relative;
+    }
+#commend .CM3_0 img{
+	position: absolute;
+	top: 20px;
+	left: 5px;
+    height: 36px;
+}
+#commend .CM3_0 p{
+	font-size: 21px;
+	font-weight:600;
+	color: #333333;
+	display: inline-block;
+	margin: 23px 0 13px 47px;
+	cursor: pointer;
+}
+#commend .CM3_0 a:hover{background: none;}
+#commend .CM3_0 a{
+	color: red;
+	font-weight: 700;
+	margin-left:768px ;
+}
+#commend .CM3_1 .ph{
+	width: 280px;
+	height: 350px;
+	margin: 25px 0 25px 35px;
+	float: left;
+}
+#commend .CM3_1 dt{
+	height: 40px;
+	line-height: 40px;
+	color: #FFFFFF;
+	font-size:15px;
+	font-weight:600;
+	text-align: center;
+	background: whitesmoke;
+}
+#commend .CM3_1 .dt1{background: #5ABFC7;}
+#commend .CM3_1 .dt2{background: #84ADDE;}
+#commend .CM3_1 .dt3{background: #D87C96;}
+#commend .CM3_1 dd{
+	height: 28px;
+	line-height: 28px;
+	font-size: 13px;
+	background: #E8E8E8;
+	cursor: pointer;
+}
+#commend .CM3_1 dd p{margin-left: 28px;}
+#commend .CM3_1 dd span{color: #c10d0c;font-weight: bold;}
+#commend .CM3_1 dd a:hover{background: none;}
+#commend .CM3_1 dd a{margin-left:205px ;color: #333333;}
+/*<!--<歌曲排行部分结束>-->*/
+
+/*<!--<小众精选部分开始>-->*/
+.CM4{
+	height: 280px;
+	width: 980px;
+}
+#commend .CM4_0{
+	position: relative;
+    }
+#commend .CM4_0 img{
+	position: absolute;
+	top: 20px;
+	left: 5px;
+    height: 36px;
+}
+#commend .CM4_0 p{
+	font-size: 21px;
+	font-weight:600;
+	color: #333333;
+	display: inline-block;
+	margin: 23px 0 13px 47px;
+	cursor: pointer;
+}
+#commend .CM4_0 a:hover{background: none;}
+#commend .CM4_0 a{
+	color: red;
+	font-weight: 700;
+	margin-left:768px ;
+}
+/*<!--<小众精选部分结束>-->*/
+
+/*<!--<页尾部分开始>-->*/
+.foot{
+	height: 90px;
+	width: 100%;
+	padding-top:40px;
+	background: #333333;
+	color: whitesmoke;
+}
+.foot p{
+	text-align: center;
+}
+/*<!--<页尾部分结束>-->*/

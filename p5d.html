@@ -5,47 +5,40 @@
 		<link rel="shortcut icon" href="img/ymico.ico"/>
 		<link rel="stylesheet" href="p3d&p5d css/p5d.css" />
 		<script type="text/javascript" src="p3d&p5d js/p3d&p5d.js" ></script>
+		<script type="text/javascript" src="p3d&p5d js/jquery-3.4.0.js" ></script>
+		<script type="text/javascript" src="p3d&p5d js/music.js"></script>
 		<title>音觅-p5d</title>
 	</head>
 	<body id="TOP">
-			<!--LOGO部分开始-->
+	<!--LOGO部分开始-->
 	
 	<div id="bgd">
 		<div id="head">
 		<div class="left">
-			<img src="img/yinmi.jpg"/>
+			<a href="index.html"><img src="img/yinmi.jpg"/></a>
 		</div>
 		<div class="right">
 			<div class="user">
-				<input type="text" class="color" value="搜索..." style="height: 25px;border-radius:6px;border: none;padding-left: 5px;"/>
-			        <span class="father" onmouseover="change('user_log','block')" onmouseout="change('user_log','none')">&nbsp;&nbsp;登陆▼
-			        	<div id="user_log">
-			        		<img src="img/timg (1).jpg"/>
-			        		<input type="text" size="10" class="name"/>
-			        		<input class="pass" size="10" type="text"/>
-			        		<input type="button" value="登陆"class="left_1" />
-			        		<input type="button" class="right_2" value="注册"/>
-			        	</div>
-			        </span>
+				<input type="text" id="ssk" class="color" value="搜索..." style="height: 25px;border-radius:6px;border: none;padding-left: 5px;" onfocus="ssChange_0()" onblur="ssChange_1()"/>
+			        <a class="father" href="index.html">&nbsp;&nbsp;登录▼
+			        </a>
 			</div>		
 		</div>
 	</div>
 	</div>
-	
 	<!--LOGO部分结束-->
 		<!--导航部分开始-->
 		<div id="nav">
 			<ul class="nav_1">
+				<li><a href="#">首页</a></li>
 				<li><a href="#">每日推荐</a></li>
-				<li><a href="#">发现音乐</a></li>
-				<li><a href="#">精选歌单</a></li>
-				<li><a href="#">榜单</a></li>
-				<li><a href="#">热门专辑</a></li>
+				<li><a href="#">歌曲排行</a></li>
+				<li><a href="#">小众精选</a></li>
 				<li><a href="#">歌手</a></li>
+				<li><a href="#">关于我们</a></li>
 			</ul>
 		</div>
         <!--导航部分结束-->
-        
         <!--banner部分开始-->
         <div id="banner"> 
         	
@@ -72,7 +65,7 @@
         				<span>发行公司</span>： ATLUS
         			</p>		
         		</div>       			
-        		<!--包含的歌曲列表-->
+        		<!--包含的歌曲列表开始-->
         		<div id="music">
         			<h2 class="music">包含的歌曲列表</h2>
         			<dl>
@@ -128,9 +121,19 @@
         				<dd>『女神异闻录5』中遭遇强敌时的BGM。<br/>这里收录的是『p5d』专辑中的变调版。</dd>
         			</dl>
         		</div>
+        		<!--包含的歌曲列表结束-->
         	</div>    	
         </div>
         <!--bannner部分结束-->
+        
+        <!--歌曲播放部分开始-->
+        <div id="music_stay">
+        	<img src="img/ym.png" alt="" class="music_img"/>
+        	<p id="wz">管理当前播放歌曲</p>
+        </div>
+        <div id="music_xinxi"></div>
+        <!--歌曲播放部分结束-->
+        
         <!--top部分开始-->
         <a href="#TOP" id="top"><img src="img/top.png"/></a>
         <!--top部分结束-->

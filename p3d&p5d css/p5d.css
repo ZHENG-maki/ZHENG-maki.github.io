@@ -3,7 +3,7 @@
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
-}
+}     
 /*	<!--LOGO部分开始-->*/
 #bgd{background: #333333;}
 #head{
@@ -20,6 +20,8 @@ color: whitesmoke;
 margin: 29px 0 0 0;
 cursor: pointer;
 }
+#bgd #head .right a:hover{background: none;}
+ .father {color: white;}
 #head .right .user .color{color:silver;}
 /*登陆相关部分开始*/
 #father {position: absolute;}
@@ -46,6 +48,7 @@ border: none;
 #user_log .right_2{cursor: pointer;background: rgba(0,0,0,0);color: aquamarine;}
 #user_log{display: none;}
 /*登陆相关部分结束*/
+
 /*<!--LOGO部分结束-->*/
 
 
@@ -62,6 +65,7 @@ border: none;
 }
 .nav_1 li{float: left;}
 .nav_1 li a{
+	left: 406px;
 	width: 120px;
 	height: 42px;
 	display: inline-block;
@@ -71,7 +75,6 @@ border: none;
 }
 #nav a:hover{background: #9B0909;}
 /*		<!--导航部分结束-->*/
-
 /*banner部分开始*/
 #banner{
 	width: 100%;
@@ -149,6 +152,34 @@ border: none;
 	margin-top: 45px;
 }
 /*banner部分结束*/
+
+/*歌曲播放部分开始*/
+#music_stay{
+	position: fixed;
+	height: 275px;
+	width: 40px;
+	right: 0;
+	top: 122px;
+	font-size: 21px;
+	text-align: center;
+	background-color: rgba(169,0,0,0.3);
+	color: white;
+	cursor: pointer;
+}
+#music_stay .music_img{
+	width: 40px;
+	height: 40px;
+}
+#music_xinxi{
+	background-color: rgba(169,0,0,0.8);
+	position: fixed;
+	height: 500px;
+	width: 0px;
+	right: 40px;
+	top: 122px;
+}
+/*歌曲播放部分结束*/
+
 /*top部分开始*/
 #top{
 	width: 80px;
