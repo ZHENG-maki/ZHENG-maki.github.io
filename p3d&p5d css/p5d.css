@@ -142,6 +142,7 @@ border: none;
 #music dt{
 	height: 94px;
 	width: 600px;
+	cursor: pointer;	
 }
 #music dd{
 	font-weight: 700;
@@ -173,10 +174,37 @@ border: none;
 #music_xinxi{
 	background-color: rgba(169,0,0,0.8);
 	position: fixed;
-	height: 500px;
+	height: 485px;
 	width: 0px;
 	right: 40px;
 	top: 122px;
+	padding-top: 15px;
+}
+/*歌曲封面*/
+#music_fm1{
+	height: 156px;
+	width: 194px;
+	display: none;
+}
+#music_fm{
+	margin-left: 15px;
+	width: 156px;
+	height: 156px;	
+	display: none;
+}
+/*歌曲名字*/
+#music_mz{
+	margin: 10px auto;
+	width: 230px;
+	height: 20px;
+}
+.music_mz{
+	display: none;
+	text-align: center;
+	line-height: 20px;
+	font-size: 17px;
+	font-weight: 700;
+	color: white;
 }
 /*歌曲播放部分结束*/
 
