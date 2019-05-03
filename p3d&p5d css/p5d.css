@@ -174,7 +174,7 @@ border: none;
 #music_xinxi{
 	background-color: rgba(169,0,0,0.8);
 	position: fixed;
-	height: 485px;
+	height: 430px;
 	width: 0px;
 	right: 40px;
 	top: 122px;
@@ -205,6 +205,88 @@ border: none;
 	font-size: 17px;
 	font-weight: 700;
 	color: white;
+}
+/*播放进度条*/
+#music_jd
+{
+	position: relative;
+	width: 200px;
+	height: 50px;
+	margin: 50px auto 0;
+	display: none;
+}
+#music_jd .music_zjd{
+	position: absolute;
+	width: 200px;
+	height: 3px;
+	top: 50%;
+	background-color: #808284;
+}
+#music_jd .music_dqjd{
+	position: absolute;
+	width: 0px;
+	height: 3px;
+	top: 50%;
+	background-color: #B30000;
+}
+#music_jd .music_jdd{
+	position: absolute;
+	top: -2px;
+	left: 0px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: white;
+	cursor: pointer;
+}
+#music_Time{
+	margin: auto;
+	width: 200px;
+	height: 10px;
+	display: none;
+}
+#music_Time .music_time_dq,.music_time_gq{
+	font-weight: 700;
+	color: #ccc;
+}
+#music_Time .music_time_gq{
+	margin-left: 105px;
+}
+/*播放器控制按钮*/
+#anniu{
+	display: none;
+	height: 50px;
+	width: 200px;
+	margin: 50px auto 0;
+}
+#anniu .befor,.stop,.next{
+	widows: 70px;
+	height: 50px;
+	float: left;
+}
+.icon-step-backward{/*上一首*/
+	cursor: pointer;
+	margin-left: 15px;
+	margin-right: 40px;
+	color: white;
+	font-size: 45px;
+}
+.icon-pause{/*暂停播放*/
+	cursor: pointer;
+	margin-right: 40px;
+	color: white;
+	font-size: 45px;
+}
+.icon-play{/*开始播放*/
+	cursor: pointer;
+	margin-right: 40px;
+	color: white;
+	font-size: 45px;
+}
+.icon-step-forward{/*下一首*/
+	cursor: pointer;
+	color: white;
+	font-size: 45px;
 }
 /*歌曲播放部分结束*/
 
